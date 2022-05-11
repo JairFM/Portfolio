@@ -1,0 +1,545 @@
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/ladingpage.png) ;
+    background-size: 100vw ;
+    font-size: 1.2vw;
+    background-color: #49099c;
+
+    
+}
+
+/* Estilização do menu de navegação*/
+header {
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header nav {
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+header nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif ;
+    position: relative;
+   
+
+}
+
+header nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+
+}
+
+header nav #logo {
+
+    margin-left: 60px;
+
+}
+
+header nav ul li a:hover{
+
+    color: #ae841a;
+
+}
+
+header nav ul li img {
+
+    padding: 3px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+header nav ul li img:hover{
+
+    background: #ae841a;
+    
+}
+
+header nav ul li .item:after {
+
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #daa520;
+    transition: width .3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+
+}
+
+header nav ul li .item:hover:after {
+
+    width: 100%;
+    left: 0;
+
+}
+
+/*Estilizando a lading page*/
+
+#Lading_page {
+
+   
+    display: flex;
+    flex-direction: column;
+    align-items: right ;
+    margin-top: 6%;
+    margin-left: 5%;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-size: 1.3vw;
+
+}
+
+#Lading_page h2 {
+
+    margin-top: -3%;
+    font-size: 2.9vw; 
+
+}
+
+#Lading_page h1 {
+
+    font-size: 3.7vw;
+}
+
+
+#Lading_page #vermais {
+
+    width: 180px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 8%;
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-style: none;
+    background: linear-gradient(to left, #ae1a7d, #5d2f70);
+    box-shadow: none;
+    color: white;
+    transition: all .5s ease;
+    
+
+}
+
+#Lading_page #vermais:hover{
+
+    background: linear-gradient(to left, #5d2f70, #ae1a7d );
+    letter-spacing: 2px;
+    transform: scale(1.2,1.2);
+    color: black;
+
+}
+
+/*Secção Sobre mim*/
+
+#sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background: #1B2029;
+    font-family: Poppins, sans-serif;
+
+
+}
+
+#sobremim h1 {
+
+  
+    font-size: 2.5vw;
+    color: white;
+  
+
+
+}
+
+#sobremim #legenda {
+
+  
+    color: white;
+    font-size: 1.2vw;
+    margin-top: -3%;
+    margin-bottom: 7%;
+    margin-right: 5%;
+  
+}
+
+#sobremim h1{
+
+color: white;
+font-size: 2vw;
+margin-left: 5%;
+margin-right: 10%;
+margin-top: 5%;
+text-align: left;
+
+
+}
+
+#sobremim #textos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: left;
+     
+    
+    }
+
+#sobremim img {
+
+    margin-left: 5%;
+
+}
+#sobremim #semideiadenome {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#servicos {
+
+    background: linear-gradient(to left, #291b23, #49099c);
+    background-size: 100%;
+    margin-top: -20px;
+
+}
+
+#servicos h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    
+
+}
+
+#servicos #icones {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-right: 5%;
+
+   
+}
+
+#servicos #icones #primeiroicone {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:10%;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 50px;
+    margin-left: 5%;
+    width: 30%;
+    border-radius: 15px;
+
+}
+
+#servicos #icones #primeiroicone h2 {
+
+    font-family: Poppins, sans-serif;
+    color: white;
+    
+
+}
+#servicos #icones #primeiroicone p {
+
+    font-family: Poppins, sans-serif;
+    color: white;
+    
+
+}
+
+#servicos #icones #segundoicone {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin-bottom:10%;
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+#servicos #icones #segundoicone h2 {
+
+    font-family: Poppins, sans-serif;
+    color: white;
+    
+
+}
+
+#servicos #icones #segundoicone p {
+
+    font-family: Poppins, sans-serif;
+    color: white;
+    margin-top: 10%;
+    
+
+}
+
+#projectos {
+
+    background-color: #1B2029;
+     margin-top: -20px;
+
+}
+
+#projectos h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    color: white;
+
+}
+
+#projectos p {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+#projectos img {
+
+    margin-bottom: 10%;
+
+}
+
+#contacto{
+
+
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 500px;
+    font-family: Poppins, sans-serif;
+    color: white;
+
+}
+
+#contacto h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    color: white;
+
+}
+
+#contacto #fala {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+} 
+
+#contacto #as_cenas {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media only screen  and (max-width: 1200px) {
+
+    body {
+
+        background-size: 100vw 22%;
+
+    }
+
+    header nav ul {
+
+        margin-right: 2%;
+
+    }
+
+#contacto #as_cenas {
+
+    margin-bottom: -200px;
+
+}
+
+
+}
+
+@media only screen and  (max-width: 1050px) {
+
+
+header {
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+
+}
+
+
+
+
+header nav ul {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+ 
+    transform: translate(-50%);
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif ;
+    position: relative;
+   
+
+}
+
+}
+
+@media only screen and  (max-width: 900px) {
+
+    body {
+
+        background-size: 180vw;
+        font-size: 2vw;
+
+    }
+
+    #Lading_page {
+
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        font-size: 2vw;
+
+    }
+
+    #Lading_page #vermais {
+
+        transform: translate(-20%);
+
+    }
+
+    #sobremim img {
+
+       display: none;
+
+    }
+
+    #sobremim #textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 10%
+        
+
+    }
+
+    
+    #sobremim #legenda {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 2vw;
+        
+
+    }
+
+    #sobremim h1 {
+
+        margin-bottom: 5vw;
+        font-size: 2.5vw;
+        margin-left: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+#servicos  #icones {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#servicos #icones #primeiroicone {
+
+
+    width: 50vw;
+    margin-left: 0;
+
+}
+
+#servicos #icones #segundoicone {
+
+
+    width: 50vw;
+
+}
